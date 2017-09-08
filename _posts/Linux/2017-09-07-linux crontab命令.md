@@ -16,7 +16,9 @@ tags: [linux]
 52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 ```
 
-我以为编辑crontab保存后会自动执行，其实不然，必须通过重启cron才可以，命令如下：
+crontab保存后，输入`/etc/init.d/cron restart`重启生效。
+
+#### 相关命令：
 
 启动
 
