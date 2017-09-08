@@ -22,19 +22,19 @@ crontab保存后，输入`/etc/init.d/cron restart`重启生效。
 
 启动
 
-```language
+```bash
 /etc/init.d/cron start
 ```
 
 关闭
 
-```language
+```bash
 /etc/init.d/cron stop
 ```
 
 重启
 
-```
+```bash
 /etc/init.d/cron restart
 ```
 
