@@ -2,7 +2,7 @@
 layout: post
 title: surge配置-hosts
 date: 2017-09-08 18:24:05 +0759
-category: 代码
+category: 分享
 tags: [ss]
 ---
 
